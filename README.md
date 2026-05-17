@@ -1,6 +1,6 @@
 # 🌐 WebTester
 
-> A low-level HTTP/HTTPS diagnostic tool built entirely on raw sockets — no `requests`, no `urllib`, no shortcuts.
+> A low-level HTTP/HTTPS diagnostic tool built entirely on raw sockets, no `requests`, no `urllib`, no shortcuts.
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Protocol](https://img.shields.io/badge/Protocol-HTTP%2F1.1-orange?style=flat-square)
