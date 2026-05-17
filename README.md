@@ -31,6 +31,19 @@ Key implementation decisions:
 
 ---
 
+## Usage
+
+**Requires:** Python 3 on a Linux system (tested on `linux.csc.uvic.ca`)
+
+```bash
+# Pass the URL directly
+python3 WebTester.py www.uvic.ca
+python3 WebTester.py https://www.google.com
+
+# Or run interactively
+python3 WebTester.py
+# → Please enter URL: _
+```
 ## Sample Output
 
 ```
@@ -46,21 +59,6 @@ cookie name: TS0165a077; domain name: .uvic.ca
 ```
 
 ---
-
-## Usage
-
-**Requires:** Python 3 on a Linux system (tested on `linux.csc.uvic.ca`)
-
-```bash
-# Pass the URL directly
-python3 WebTester.py www.uvic.ca
-python3 WebTester.py https://www.google.com
-
-# Or run interactively
-python3 WebTester.py
-# → Please enter URL: _
-```
-
 No dependencies to install. No virtual environment needed.
 
 ---
