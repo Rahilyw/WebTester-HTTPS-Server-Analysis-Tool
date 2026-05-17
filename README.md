@@ -22,13 +22,6 @@ WebTester is a command-line tool that probes a web server and surfaces three key
 All redirect chains (301/302) are followed automatically until the final destination is reached.
 
 ---
-
-## Why This Project Stands Out
-
-Most networking assignments reach for `requests` or `http.client`. This one doesn't.
-
-WebTester is implemented using **only Python's standard socket and SSL libraries** — meaning every byte of the HTTP request is hand-crafted, every response is parsed manually, and every redirect is resolved from scratch. This reflects a ground-up understanding of how the web actually works at the protocol level.
-
 Key implementation decisions:
 
 - **ALPN negotiation** — wraps the socket in a `ssl.SSLContext`, offers `['h2', 'http/1.1']`, and reads back the negotiated protocol to detect HTTP/2 support
